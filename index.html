@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conway's Game of Life</title>
+    <style>
+      body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      button {
+        float:left;
+        margin-right:40px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <label for="inputrange">N ticks to skip:</label>
+    <input type="range" value="1" min="0", max="99" id="inputrange" step="1">
+    <button id="play-pause"></button>
+    <button id="nexttick"></button>
+    <button id="reset"></button>
+    <button id="random"></button>
+    <div id="fps"></div>
+    <canvas  id="game-of-life-canvas"></canvas>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>

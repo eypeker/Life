@@ -1,0 +1,30 @@
+{
+  "name": "js-game-of-live",
+  "version": "1.0.0",
+  "description": "A Javscript version of Conway's Game of Live",
+  "main": "./index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BlueInvader@bitbucket.org/BlueInvader/webassemblyinfo.git"
+  },
+  "keywords": [
+    "life",
+    "js"
+  ],
+  "author": "Eyuep Eker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/BlueInvader/webassemblyinfo/issues"
+  },
+  "homepage": "https://bitbucket.org/BlueInvader/webassemblyinfo#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
